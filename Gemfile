@@ -63,11 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'carrierwave'
 gem 'faker'
 
-#for our local server:
-group :development do
-    gem 'sqlite3'
-end
-
 #for Heroku:
 group :production do
   gem 'pg'
